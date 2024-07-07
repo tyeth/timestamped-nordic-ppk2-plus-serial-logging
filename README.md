@@ -8,6 +8,10 @@ pip install pynrfjprog serial
 ```
 
 specify voltage for device under test, and optionally com port (com3 by default)
-`ppk2_logger_with_announce 3.3`
+```sh
+ppk2_logger_with_announce 3.3
+```
 or
-`python ppk2_logger_with_announce.py 3.3 COM4`
+```sh
+python ppk2_logger_with_announce.py 3.3 COM4
+```
